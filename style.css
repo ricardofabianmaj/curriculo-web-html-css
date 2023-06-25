@@ -1,0 +1,116 @@
+:root {
+    --cor1: #2B09ED;
+    --cor2: #0A26F7;
+    --cor3: #1463E1;
+    --cor4: #0AA3F7;
+    --cor5: #09D9ED;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+body{
+  background-color: #0AA3F7;
+  padding: 0px;
+}
+h1{
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  background-color: #1463E1;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  margin-bottom: 10px;
+}
+h1:hover{
+  color: white;
+  background-color: #0AA3F7;
+
+}
+aside{
+  background-image: -webkit-linear-gradient(90deg, #1463E1, #09D9ED);
+  background-attachment: fixed;
+
+  margin: auto;
+  border-radius: 20px;
+
+  box-shadow: black 0px 0px 10px;
+  margin-top: 15px;
+  
+}
+p, li{
+  padding: 15px;
+  padding-top: 0px;
+  margin: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+
+li{
+  padding-left: 0px;
+  margin-left: 5px;
+}
+#dados{
+  min-width: 150px;
+  max-width: 600px;
+  text-align: center;
+
+
+}
+nav{
+  padding: 10px;
+  display: inline;
+}
+.icones{
+  width: 20px;
+  padding-left: 30px;
+  padding-top: 0px;
+  float: left;
+}
+#perfil{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: black
+}
+.lb {
+  min-width: 150px;
+  max-width: 600px;
+  
+}
+
+#dados-e{
+  display: inline-block;
+}
+h1{
+  text-align: left;
+}
+aside > p:hover, li:hover, a:hover{
+  color:white;
+}
+footer{
+  width: 100%;
+  background-color: #2B09ED;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  height: 50px;
+}
+footer > p {
+  color: white;
+  padding-top: 15px;
+}
